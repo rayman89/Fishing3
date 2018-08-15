@@ -1,0 +1,27 @@
+A mod that adds to the fishing experience in terraria. Experience new ways of obtaining vanilla items trough fishing. Fishing during events will give you special rewards there are lots of new crates, new fishing related weapons, rods, mounts, etc. 
+
+
+Changelog:
+
+v1.4.5 Deleted unnecessary files to reduce mod's file size
+
+v1.4.4 Added support for Miscellania's Autofisher
+
+1.4.3 Changed reward for Angler Quests Finished = 21 Golden Bug Net Quests Finished = 23 Fish Hook
+
+1.4.2 Small changes to the cave crate to behave in par with the rest of the crates
+
+1.4.1 Added Icon
+
+v1.4  Made compatible with tmod 10 + Improved Mecha fishron mount and other small things
+
+v1.2.6 Fixed forest crate giving hardmode potions pre hardmode
+
+v1.2.5 Fixed fishable items during Blood Moon and Solar Eclipse. Small improvements to some sprites thanks to Joost8910.
+
+v1.2.3 Updated for new tmod + Added crit chance for the mod's weapons
+
+v1.2.3 Removed the ability to fish Bee Wax from honey because as a side effect it significantly reduced the chances of fishing honeyfin.
+
+
+Check thread for more details.

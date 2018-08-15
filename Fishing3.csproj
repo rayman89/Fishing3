@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62D896BF-43B8-41BC-B964-FFA6FACF1B20}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fishing3</RootNamespace>
+    <AssemblyName>Fishing2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Buffs\MechaFishron.cs" />
+    <Compile Include="FishingPlayer.cs" />
+    <Compile Include="Items\Analyzer.cs" />
+    <Compile Include="Items\CaveCrate.cs" />
+    <Compile Include="Items\CloseCS.cs" />
+    <Compile Include="Items\DarkMatterEngine.cs" />
+    <Compile Include="Items\DesertCrate.cs" />
+    <Compile Include="Items\ForestCrate.cs" />
+    <Compile Include="Items\IceCrate.cs" />
+    <Compile Include="Items\MagiCore.cs" />
+    <Compile Include="Items\MetalicTruffle.cs" />
+    <Compile Include="Items\Missiles.cs" />
+    <Compile Include="Items\ObsidianCrate.cs" />
+    <Compile Include="Items\OceanCrate.cs" />
+    <Compile Include="Items\PCorruptCrate.cs" />
+    <Compile Include="Items\PCrimsonCrate.cs" />
+    <Compile Include="Items\PHallowCrate.cs" />
+    <Compile Include="Items\PJungleCrate.cs" />
+    <Compile Include="Items\PossessedCrate.cs" />
+    <Compile Include="Items\Projectiles\FishingtronProj.cs" />
+    <Compile Include="Items\Projectiles\MStarProj.cs" />
+    <Compile Include="Items\Projectiles\NautBubbles.cs" />
+    <Compile Include="Items\Projectiles\NautYoyo.cs" />
+    <Compile Include="Items\Projectiles\Sharks.cs" />
+    <Compile Include="Items\recipes.cs" />
+    <Compile Include="Items\RewardONE.cs" />
+    <Compile Include="Items\RewardPot.cs" />
+    <Compile Include="Items\Scrap.cs" />
+    <Compile Include="Items\Shield.cs" />
+    <Compile Include="Items\SoulBait.cs" />
+    <Compile Include="Fishing3.cs" />
+    <Compile Include="Items\Tiles\AnalyzerTile.cs" />
+    <Compile Include="Items\Weapons\ArmoredNautilus.cs" />
+    <Compile Include="Items\Weapons\Fishingtron.cs" />
+    <Compile Include="Items\Weapons\MechaStar.cs" />
+    <Compile Include="Items\Weapons\Pupperfish.cs" />
+    <Compile Include="Items\Weapons\SharkBook.cs" />
+    <Compile Include="Mounts\MechaFishron.cs" />
+    <Compile Include="NPCs\FishingGlobalNPC.cs" />
+    <Compile Include="Zone.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Game\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Graphics\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Xna.Framework.Xact\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Xact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Terraria">
+      <HintPath>..\..\..\..\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="description.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="info.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,7 @@
+author = Roxxz
+version = 1.4.5
+displayName = Fishing 2.0
+includeSource = true
+hideCode = false
+homepage = https://forums.terraria.org/index.php?threads/fishing-2-0.51479/
+
